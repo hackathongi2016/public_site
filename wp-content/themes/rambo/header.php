@@ -27,7 +27,7 @@
   </head>
   <body <?php body_class(); ?>>
     <!--Menu Wrapper-->
-    <div class="container">
+<!-- <div class="container">
       <div class="navbar">
         <div class="navbar-inner">
           <div class="container">
@@ -36,8 +36,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </a>
-            <!-------custom logo and custom test and defualt logo text-------->
-            <a href="<?php echo esc_url(home_url('/')) ; ?>" class="brand">
+            <!-------custom logo and custom test and defualt logo text-------->         
+<!-- <a href="<?php echo esc_url(home_url('/')) ; ?>" class="brand">
             <?php if($rambo_current_options['rambo_texttitle'] ==true) { ?>
             <?php $blogname = get_bloginfo( );
               $blogname1 = substr($blogname,0,1);
@@ -49,7 +49,7 @@
               } ?>
             </a>
             <!------ end of logo -------->
-            <div class="nav-collapse collapse navbar-responsive-collapse ">
+<!--            <div class="nav-collapse collapse navbar-responsive-collapse ">
               <?php	wp_nav_menu( array(  
                 'theme_location' => 'primary',
                 'container'  => 'nav-collapse collapse navbar-inverse-collapse',
@@ -63,7 +63,7 @@
           </div>
         </div>
         <!-- /navbar-inner -->
-      </div>
+<!--      </div>-->
     </div>
     <style type="text/css">
       #logo_image{height:<?php if($rambo_current_options['height']!='') { echo $rambo_current_options['height']; }  else { "50"; } ?>px; width:<?php if($rambo_current_options['width']!='') { echo $rambo_current_options['width']; }  else { "150"; } ?>px;}
