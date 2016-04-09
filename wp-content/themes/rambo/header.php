@@ -60,10 +60,40 @@
                 );	?>                    
             </div>
             <!-- /.nav-collapse -->
-          </div>
+<!--           </div>
         </div>
         <!-- /navbar-inner -->
 <!--      </div>-->
+
+
+<nav class="row" style="background-color:#717DC5"> 
+	<div class="col-xs-2" > 
+		<a href="http://www.trabel.me"><img src="https://github.com/hackathongi2016/docs/blob/master/dissenys/Travel_Blanc45px.png?raw=true"/></a>
+	</div>		
+	<div class="col-xs-8">
+		<!-- Empty div, columna del mig de la capçalera.--> 
+	</div>
+	<div class="col-xs-2 nav-div" >
+		<div class="row">
+			<div class="col-xs-6" style="text-align:center;">
+			
+					<a href="http://search.trabel.me">
+						<span class="glyphicon glyphicon-search" style="color:white;font-size:25px;margin-top:10px;" aria-hidden="true"></span>
+					</a>
+				
+			</div>
+			<!-- Afegir color de la font al bootstrap -->
+			<div class="col-xs-6">
+				<a href="http://auth.trabel.me/login"><img src="https://github.com/hackathongi2016/docs/blob/master/dissenys/boto.login.transparent.png?raw=true"/></a>
+				
+				<!--<h4><a style="color:white" href="http://auth.trabel.me/login.php">Log in</a></h4>-->
+			</div>
+		</div>
+		
+	</div>
+</nav>
+
+
     </div>
     <style type="text/css">
       #logo_image{height:<?php if($rambo_current_options['height']!='') { echo $rambo_current_options['height']; }  else { "50"; } ?>px; width:<?php if($rambo_current_options['width']!='') { echo $rambo_current_options['width']; }  else { "150"; } ?>px;}
